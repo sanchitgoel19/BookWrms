@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    </style>
+
+
+    <!-- Custom Style For Main Activity -->
+    <style name="CustomStyleForMainActivity" parent="Base.Theme.AppCompat.Light">
+        <item name="actionBarStyle">@style/Widget.Styled.ActionBar</item>
+        <!-- Customize your theme here. -->
+        <!-- API 21 theme customizations can go here. -->
+        <!-- Main theme colors -->
+        <!--   your app branding color for the app bar -->
+        <item name="android:colorPrimary">@color/actionBarBackground</item>
+        <!--   using same variant for the status bar and contextual app bars -->
+        <item name="android:colorPrimaryDark">@color/actionBarBackground</item>
+
+    </style>
+
+    <style name="Widget.Styled.ActionBar" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="displayOptions">showHome|useLogo</item>
+        <item name="background">@color/actionBarBackground</item>
+    </style>
+
+</resources>

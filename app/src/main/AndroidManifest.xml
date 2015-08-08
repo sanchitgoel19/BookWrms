@@ -23,7 +23,9 @@
         <!--Main Activity -->
         <activity
             android:name=".MainActivity"
-            android:theme="@style/CustomStyleForMainActivity">
+            android:theme="@style/CustomStyleForMainActivity"
+            android:uiOptions="splitActionBarWhenNarrow"
+            >
         </activity>
 
     </application>
