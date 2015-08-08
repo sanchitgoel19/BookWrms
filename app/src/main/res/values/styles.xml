@@ -5,4 +5,15 @@
         <!-- Customize your theme here. -->
     </style>
 
+
+    <!-- Custom Style For Main Activity -->
+    <style name="CustomStyleForMainActivity" parent="Base.Theme.AppCompat.Light">
+        <item name="actionBarStyle">@style/Widget.Styled.ActionBar</item>
+    </style>
+
+    <style name="Widget.Styled.ActionBar" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="displayOptions">showHome|useLogo</item>
+        <item name="background">@color/actionBarBackground</item>
+    </style>
+
 </resources>
