@@ -6,6 +6,8 @@
     <string name="title_activity_welcome_screen">WelcomeScreen</string>
 
     <string name="action_bar_search">Search</string>
-    <string name="action_bar_cart">Add to cart</string>
+    <string name="action_bar_cart">Cart</string>
     <string name="action_bar_alert">Notifications</string>
+
+    <string name="action_search_hint">Search Books, Authors...</string>
 </resources>
