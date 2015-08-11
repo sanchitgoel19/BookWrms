@@ -1,16 +1,28 @@
 <resources>
     <string name="app_name">BookWrms</string>
 
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
-    <string name="title_activity_welcome_screen">WelcomeScreen</string>
-
     <string name="action_bar_search">Search</string>
     <string name="action_bar_cart">Cart</string>
     <string name="action_bar_alert">Notifications</string>
+
 
     <string name="home_actiontab_string">Home</string>
     <string name="account_actiontab_string">Account</string>
     <string name="subscriptions_action_tab_string">Subscriptions</string>
     <string name="exchange_action_tab_string">Exchange</string>
+
+    <string name="drawer_open">Books Categories Opened</string>
+    <string name="drawer_close">Books categories Closed</string>
+    <string-array name="books_categories">
+        <item>Fiction</item>
+        <item>Comics</item>
+        <item>Literature</item>
+        <item>Romantic</item>
+    </string-array>
+    <string-array name="books_categories_icons">
+        <item>@drawable/ic_fiction</item>
+        <item>@drawable/ic_comics</item>
+        <item>@drawable/ic_literature</item>
+        <item>@drawable/ic_romantic</item>
+    </string-array>
 </resources>

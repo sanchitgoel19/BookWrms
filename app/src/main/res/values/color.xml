@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="actionBarBackground">#1E90FF</color>
+    <color name="list_item_title">#000000</color>
+    <color name="list_background">#FFFFFF</color>
+    <color name="list_background_pressed">#708090</color>
+    <color name="drawer_list_background">#FFFFFF</color>
 </resources>
