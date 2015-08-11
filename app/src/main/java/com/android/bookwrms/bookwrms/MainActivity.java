@@ -6,6 +6,8 @@
 package com.android.bookwrms.bookwrms;
 
 import android.os.Bundle;
+import android.support.design.widget.TabLayout;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -17,6 +19,24 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        ViewPager viewPager = (ViewPager) findViewById(R.id.view_pager);
+        PagerFragmentAdapter pagerAdapter = new PagerFragmentAdapter(getSupportFragmentManager(), MainActivity.this);
+        viewPager.setAdapter(pagerAdapter);
+
+
+        TabLayout tabLayout = (TabLayout) findViewById(R.id.sliding_tabs);
+        tabLayout.setupWithViewPager(viewPager);
+        getCustomTabViews(tabLayout, pagerAdapter);
+
+        tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
+    }
+
+    private void getCustomTabViews(TabLayout tabLayout, PagerFragmentAdapter pagerAdapter) {
+        for (short itr = 0; itr < tabLayout.getTabCount() ; itr++){
+            TabLayout.Tab tab = tabLayout.getTabAt(itr);
+            tab.setCustomView(pagerAdapter.getTabView(itr));
+        }
     }
 
     @Override

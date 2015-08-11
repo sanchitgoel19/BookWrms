@@ -9,5 +9,8 @@
     <string name="action_bar_cart">Cart</string>
     <string name="action_bar_alert">Notifications</string>
 
-    <string name="action_search_hint">Search Books, Authors...</string>
+    <string name="home_actiontab_string">Home</string>
+    <string name="account_actiontab_string">Account</string>
+    <string name="subscriptions_action_tab_string">Subscriptions</string>
+    <string name="exchange_action_tab_string">Exchange</string>
 </resources>

@@ -24,4 +24,10 @@
         <item name="logo">@drawable/action_bar_logo</item>
     </style>
 
+
+    <!--Custom style for tabs on top -->
+    <style name="CustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">#000000</item>
+    </style>
+
 </resources>
