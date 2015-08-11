@@ -15,7 +15,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/home_actiontab_string"
-        android:layout_alignParentBottom="true"
         android:layout_marginTop="@dimen/margin_tab_text"
         android:textSize="@dimen/tab_text_size"/>
 
