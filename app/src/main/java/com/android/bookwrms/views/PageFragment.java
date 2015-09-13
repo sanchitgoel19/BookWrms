@@ -8,7 +8,7 @@
  * TODO::1 Fragment for each tab will have to be written.
  */
 
-package com.android.bookwrms.bookwrms;
+package com.android.bookwrms.views;
 
 
 import android.os.Bundle;
@@ -17,6 +17,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import com.android.bookwrms.bookwrms.R;
 
 public class PageFragment extends Fragment {
 

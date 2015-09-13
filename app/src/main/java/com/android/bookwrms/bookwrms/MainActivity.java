@@ -22,6 +22,7 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 
 import com.android.bookwrms.adapter.BookCategoryListAdapter;
+import com.android.bookwrms.adapter.PagerFragmentAdapter;
 import com.android.bookwrms.model.BookCategoryItem;
 
 import java.util.ArrayList;

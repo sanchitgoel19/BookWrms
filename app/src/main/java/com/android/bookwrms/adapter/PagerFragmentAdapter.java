@@ -3,7 +3,7 @@
  * Disclaimer: This is the property of BookWorms Corporation. Any reproduction of the material here in any form is liable to legal action.
  */
 
-package com.android.bookwrms.bookwrms;
+package com.android.bookwrms.adapter;
 
 import android.support.v4.app.FragmentManager;
 import android.content.Context;
@@ -11,6 +11,9 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.view.LayoutInflater;
 import android.view.View;
+
+import com.android.bookwrms.views.PageFragment;
+import com.android.bookwrms.bookwrms.R;
 
 public class PagerFragmentAdapter extends FragmentPagerAdapter {
 
