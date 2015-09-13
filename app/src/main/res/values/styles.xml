@@ -14,7 +14,6 @@
     <style name="Widget.Styled.ActionBar" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
         <item name="displayOptions">showHome|useLogo</item>
         <item name="background">@color/actionBarBackground</item>
-        <item name="logo">@drawable/action_bar_logo</item>
     </style>
 
 
